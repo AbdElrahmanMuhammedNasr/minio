@@ -1,0 +1,17 @@
+
+spring:
+  application:
+      name: minio-server
+
+minio:
+  service: users
+  endpoint: http://localhost:9000
+  accessKey: fNW7AcoiGh0Zwj1UCArx
+  secretKey: Lsm925nNvZZJ7QcBcaQuAsPCe8V6CVGFyemzHtam
+  bucket:
+    - development
+    - production
+    - uat
+
+server:
+  port: 1236
